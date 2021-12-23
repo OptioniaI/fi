@@ -1,0 +1,2 @@
+game.Workspace.Structure.Baseplate.CanCollide = true
+game.Workspace.Underground:Destroy()
