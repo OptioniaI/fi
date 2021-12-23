@@ -1,3 +1,7 @@
 game.Workspace.Structure.Baseplate.CanCollide = true
 game.Workspace.Underground:Destroy()
 game.Players.LocalPlayer.Character.Animate.Disabled = false
+local anim = Instance.new('Animation')
+anim.AnimationId = 'rbxassetid://180426354'
+local hum = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(anim)
+hum:Play()
